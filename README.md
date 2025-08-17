@@ -1,11 +1,19 @@
 Relatório (como "Empresa") de Análise de Evasão de Clientes - TelecomX
+
+
 Resumo Executivo
+
 A análise teve como objetivo identificar os fatores que levam os clientes da TelecomX a cancelarem seus serviços (churn). Foram utilizados dois modelos preditivos, Regressão Logística e Random Forest, para prever a probabilidade de um cliente evadir. Os resultados indicam que o modelo Random Forest obteve o melhor desempenho, sendo mais eficaz na identificação de clientes em risco. A principal descoberta é que a cobrança mensal (MonthlyCharges), o tempo de serviço (Tenure) e o tipo de serviço (ServiceType) são os fatores mais relevantes para a evasão.
 
+
 Análise e Desempenho dos Modelos
+
 Os modelos foram avaliados por diversas métricas, como acurácia, ROC AUC e relatório de classificação, com um foco especial na capacidade de identificar corretamente os clientes que realmente evadiriam (classe 'Yes' ou 1).
 
+
+
 Regressão Logística
+
 Acurácia: 81.33%
 
 ROC AUC: 84.72%
